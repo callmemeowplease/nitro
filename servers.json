@@ -6,17 +6,8 @@
       "flag": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/de.svg",
       "city": "Frankfurt",
       "isFragmented": false,
-      "isEncrypted": false,
-      "config": "vless://example-uuid@1.2.3.4:443?security=reality&sni=example.com&fp=chrome&pbk=example-pbk&sid=example-sid&type=tcp&headerType=none#Germany%20-%20Frankfurt"
-    },
-    {
-      "id": 2,
-      "country": "Netherlands",
-      "flag": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/nl.svg",
-      "city": "Amsterdam",
-      "isFragmented": false,
-      "isEncrypted": false,
-      "config": "vmess://example-base64-config"
+      "isEncrypted": true,
+      "config": "cc949eb9a1bb3555464df56ca728326b:776bf10a340588b65cf85cf3bea6ceb680b974a12e4588f3c8ca2a7fdab2272bf91a0ea8917a1b1189f26712c0c7b1af4c16eea45efb0f92cb0ab28ce8d319bae8923cf382f3fc40c4f4f718e484afdf1b7e8e0ab6aa05a7ca577442c78e05dde24b02fc0659f7a0fa01fc976b04139fa9e556dac2c1b1232b27175884b45e1cf0af9f507b07b78c7e16d512142962a15555f3291c4af76102f9c22b1671211e66bba1aaf52a25aaf718859a8282fdd9640defb0599dbab3edb3eecab0d8442704beee4d8df16be0fba89e8897d1c56d70312179f030e029f313dc8c1c83bffaf8cf1284486ce848b760f7db27d256e1361c01f58ebdd7fe5e2d999a171785d889559d25d8f809ce5485a2e06ccba83ebd4467a24a2d3a4ce3787c4738e53a6f865930acf35cb2e2d983b15db9513bb39ad674ee118a40eba5eda5f7561473a4858f17ef4b8cc1f70d92ade7461333fe7401ee42c85c747be4004cfa259adaea419628b8363a67f28b37342cbb997612985a803241736cc957cc1b26f5732b832c46c38e3cdbaebef3313ae0edb63ee37729caf535e8ce90d63254fbc5cc22afe72d6e3682639b1e2911f45ddb858dfa"
     }
   ],
   "ad_configs": [
