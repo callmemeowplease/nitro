@@ -1,0 +1,33 @@
+{
+  "configs": [
+    {
+      "id": 1,
+      "country": "Germany",
+      "flag": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/de.svg",
+      "city": "Frankfurt",
+      "isFragmented": false,
+      "isEncrypted": false,
+      "config": "vless://example-uuid@1.2.3.4:443?security=reality&sni=example.com&fp=chrome&pbk=example-pbk&sid=example-sid&type=tcp&headerType=none#Germany%20-%20Frankfurt"
+    },
+    {
+      "id": 2,
+      "country": "Netherlands",
+      "flag": "https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/nl.svg",
+      "city": "Amsterdam",
+      "isFragmented": false,
+      "isEncrypted": false,
+      "config": "vmess://example-base64-config"
+    }
+  ],
+  "ad_configs": [
+    {
+      "id": 101,
+      "country": "Ad Server",
+      "flag": "",
+      "city": "Dedicated",
+      "isFragmented": false,
+      "isEncrypted": false,
+      "config": "vless://example-ad-uuid@5.6.7.8:443?security=reality&sni=example.com&fp=chrome&pbk=example-pbk&sid=example-sid&type=tcp&headerType=none#AdMob%20Server"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "ads": {
+    "ad_load_timeout": 8,
+    "load_in_splash": true,
+    "main": false,
+    "connect": true,
+    "disconnect": false,
+    "app_open": true
+  },
+  "dc": {
+    "enable": true,
+    "subscription_enable": false,
+    "duration_mins": 0,
+    "daily_traffic": 0
+  },
+  "dialogs": [
+    {
+      "key": "join_telegram_channel",
+      "title": "به کانال تلگرام ما بپیوندید",
+      "description": "برای دریافت آخرین سرورها، اخبار فیلترینگ و اطلاعیه‌های مهم، عضو کانال تلگرام ما شوید.",
+      "image": "https://cdn-icons-png.flaticon.com/512/2111/2111646.png",
+      "first_button": {
+        "text": "عضویت در کانال",
+        "action": "https://t.me/your_channel"
+      },
+      "second_button": {
+        "text": "بعداً",
+        "action": "dismiss"
+      },
+      "disposable": true,
+      "show_on": "open"
+    },
+    {
+      "key": "rate_us_google_play",
+      "title": "حمایت از ما با ثبت ۵ ستاره",
+      "description": "اگر از سرعت و پایداری اتصال نیترو وی‌پی‌ان رضایت دارید، با ثبت نظر در گوگل پلی به ما انرژی دهید!",
+      "image": "https://cdn-icons-png.flaticon.com/512/3334/3334338.png",
+      "first_button": {
+        "text": "ثبت نظر و امتیاز",
+        "action": "https://play.google.com/store/apps/details?id=co.newgates.nitrovpn"
+      },
+      "second_button": {
+        "text": "شاید بعداً",
+        "action": "dismiss"
+      },
+      "disposable": true,
+      "show_on": "second_open"
+    },
+    {
+      "key": "connect_security_notice",
+      "title": "اتصال امن برقرار شد",
+      "description": "ترافیک اینترنت شما اکنون رمزنگاری شده است. برای حفظ بهترین سرعت و پایداری سرورها، از دانلود فایل‌های سنگین تورنت خودداری فرمایید.",
+      "image": "https://cdn-icons-png.flaticon.com/512/1161/1161388.png",
+      "first_button": {
+        "text": "متوجه شدم",
+        "action": "dismiss"
+      },
+      "second_button": null,
+      "disposable": true,
+      "show_on": "connect"
+    },
+    {
+      "key": "connection_tip",
+      "title": "راهنمای انتخاب سرور",
+      "description": "در صورت بروز افت سرعت موقت، می‌توانید کشور دیگری را از لیست سرورها انتخاب نمایید تا سریع‌ترین مسیر برای شما فعال شود.",
+      "image": "https://cdn-icons-png.flaticon.com/512/1041/1041888.png",
+      "first_button": {
+        "text": "مشاهده سرورها",
+        "action": "dismiss"
+      },
+      "second_button": null,
+      "disposable": true,
+      "show_on": "second_connect"
+    },
+    {
+      "key": "disconnect_feedback_support",
+      "title": "نیاز به راهنمایی دارید؟",
+      "description": "در صورتی که با قطعی یا کندی اینترنت مواجه شدید، می‌توانید از طریق تلگرام با پشتیبانی در ارتباط باشید یا سرورهای جایگزین را امتحان کنید.",
+      "image": "https://cdn-icons-png.flaticon.com/512/564/564619.png",
+      "first_button": {
+        "text": "کانال تلگرام",
+        "action": "https://t.me/your_support"
+      },
+      "second_button": {
+        "text": "بستن",
+        "action": "dismiss"
+      },
+      "disposable": false,
+      "show_on": "disconnect"
+    }
+  ]
+}
