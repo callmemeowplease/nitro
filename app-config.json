@@ -11,7 +11,7 @@
     "enable": false,
     "subscription_enable": false,
     "duration_mins": 0,
-    "daily_traffic": 100
+    "daily_traffic": 5
   },
   "dialogs": []
 }
